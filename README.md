@@ -47,3 +47,9 @@ docker-compose exec kafka-1 kafka-console-consumer.sh --topic my-topic --from-be
 13. `--max-messages <n>`: Exit after consuming n messages.
 14. `--property print.headers=true`: Print message headers.
 15. `--property fetch.max.bytes=<n>`: The maximum amount of data the server should return for a fetch request.
+
+### Performance comparision
+
+1. [Part 1 — Partitions and Data Performance](https://instaclustr.medium.com/apache-kafka-kraft-abandons-the-zoo-keeper-part-1-partitions-and-data-performance-5b0af26184ca)
+2. [Part 2 — Partitions and Meta-Data Performance](https://instaclustr.medium.com/apache-kafka-kraft-abandons-the-zoo-keeper-part-2-partitions-and-meta-data-performance-6b63824c8c44)
+3. [Part 3 — Maximum Partitions and Conclusions](https://instaclustr.medium.com/apache-kafka-kraft-abandons-the-zoo-keeper-part-3-maximum-partitions-and-conclusions-cea67fa34dd6)
