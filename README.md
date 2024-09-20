@@ -1,4 +1,4 @@
-## Kakfa with KRaft
+## Kakfa Setups
 
 ### Commands
 
